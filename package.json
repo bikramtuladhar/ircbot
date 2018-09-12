@@ -1,0 +1,13 @@
+{
+  "name": "statbot",
+  "version": "0.1.0",
+  "dependencies": {
+    "coffee-script": "latest",
+    "express": "2.5.9",
+    "irc": "latest",
+    "ejs": "latest",
+    "mocha": "latest",
+    "mockery": "latest",
+    "sinon": "latest"
+  }
+}
