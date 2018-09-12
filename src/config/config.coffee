@@ -7,9 +7,14 @@ module.exports.statbot =
 #   rabbitbot module, this block can safely be deleted.
 module.exports.irc_bot =
   server: 'irc.chatsansar.com'
-  username: 'cs_guest_1234'
+  username: 'CsGuest1234'
   port: 6697
   secure: true
+  userName: 'CsGuest1234'
+  realName: 'CsGuest1234'
+  floodProtection: true
+  retryDelay: 2000
+  retryCount: 100
   debug: true
   channels: ['#nepal']
 

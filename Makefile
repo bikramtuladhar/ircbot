@@ -21,8 +21,8 @@ run:
 	node_modules/coffee-script/bin/coffee src/statbot.coffee
 
 daemon:
-	node_modules/coffee-script/bin/coffee src/statbot.coffee &
-
+	node_modules/coffee-script/bin/coffee src/statbot.coffee > log.txt 2>&1 &
+	
 compile:
 	node_modules/coffee-script/bin/coffee --compile --output lib/ src/
 

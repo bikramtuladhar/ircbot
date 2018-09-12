@@ -7,6 +7,11 @@ module.exports = (bot, config, client) ->
       secure: config.secure
       debug: config.debug
       channels: config.channels
+      userName: config.userName
+      realName: config.realName
+      floodProtection: config.floodProtection
+      retryDelay: config.retryDelay
+      retryCount: config.retryCount
   
   client.on 'join', (channel, nick, message) ->
     bot.emit 'join', nick
